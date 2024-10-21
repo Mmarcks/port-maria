@@ -1,0 +1,146 @@
+.container {
+    margin: 0px 170px 0px 170px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-family: 'poppins';
+}
+#headerTitle h1 {
+    color: #070F18;
+    font-weight: 105%;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-size: 180%;
+}
+#headerSearch li{
+    padding-left: 25px;
+    list-style: none;
+    display: inline;
+}
+#headerSearch ul{
+    text-align: right;
+    margin-top: 50px;
+}
+a {
+    color: #070F18;
+    text-decoration: none;
+    text-align: right;
+}
+#apresentationText {
+    margin-top: 60px;
+    margin-right: 0px;   
+    margin-left: 0px;
+    font-size: 100%;
+    padding: 0px;
+}
+#apresentationText h1 {
+    font-size: 290%;
+}
+#apresentationText p{
+    font-size: 90%;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+#apresentationText button {
+    background-color: #1F7CFF;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-size: 90%;
+    border: 0px;
+    border-radius: 20px;
+    width: 160px;
+}
+#apresentationText a {
+    color: white;
+}
+#apresentationText button:hover {
+    cursor: pointer;
+    background-color: #2672dd;
+}
+#apresentationImg {
+    margin-top: 60px;
+    text-align: right;
+}
+#textClient {
+    font-size: 70%;
+    margin-top: 20px;
+}
+.iconClient {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 65px;
+}
+#myServices {
+    text-align: center;
+    margin-top: 90px;
+}
+.red {
+    color: #F75C4E;
+    font-weight: 670;
+    margin-bottom: 0px;
+}
+.black {
+    margin-top: 0px;
+    font-size: 200%;
+    margin-bottom: 0px;
+}
+.gray {
+    margin-top: 20px;
+    font-size: 95%;
+    line-height: 25px;
+}
+#services {
+    display:contents;
+}
+#myServices {
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 80px;
+}
+#typesServices {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-left: 170px;
+    margin-right: 170px;
+    text-align: center;
+}
+#typesServices h2 {
+    font-size: 130%;
+}
+#contact {
+    margin-top: 60px;
+}
+#contactForm {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+#email {
+    width: 340px;
+    height: 20px;
+    background-color: #F5F6FB;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#button {
+    background-color: #1F7CFF;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    font-size: 90%;
+    border: 0px;
+    border-radius: 20px;
+    width: 130px;
+    margin-top: 20px;
+}
+#button:hover {
+    cursor: pointer;
+    background-color: #2672dd;
+}
+#textPortfolio {
+    margin-bottom: 60px;
+}
+#imgPort {
+    margin-left: 30px;
+}
